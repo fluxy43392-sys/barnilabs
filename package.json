@@ -1,0 +1,28 @@
+{
+  "name": "barnilabs-ai-chat",
+  "version": "1.0.0",
+  "description": "Modern AI Chat Interface with Woody/Paper Birch Design",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 3000 -o --cors",
+    "dev": "http-server -p 3000 -o --cors -a localhost",
+    "serve": "python -m http.server 3000"
+  },
+  "keywords": [
+    "ai",
+    "chat",
+    "interface",
+    "barnilabs",
+    "pollinations",
+    "streaming",
+    "modern"
+  ],
+  "author": "Barnilabs",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
